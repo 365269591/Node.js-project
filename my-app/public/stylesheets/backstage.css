@@ -1,0 +1,600 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em, i, b {
+  font-style: normal; }
+
+#backstage {
+  width: 100%;
+  height: 100%;
+  background: #CCCCCC; }
+  #backstage .logo {
+    width: 100%;
+    height: 76px;
+    background: #303030; }
+    #backstage .logo .logo-L {
+      width: 160px;
+      height: 56px;
+      background: #303030;
+      float: left;
+      margin-left: 28px;
+      padding-top: 20px; }
+    #backstage .logo > .logo-R {
+      width: 916px;
+      height: 76px;
+      float: right; }
+      #backstage .logo > .logo-R > ul {
+        height: 76px; }
+        #backstage .logo > .logo-R > ul > li {
+          float: left;
+          text-align: center;
+          padding: 0 15px;
+          height: 66px;
+          padding-top: 10px; }
+          #backstage .logo > .logo-R > ul > li img {
+            display: block;
+            margin-bottom: 5px; }
+          #backstage .logo > .logo-R > ul > li span {
+            display: block;
+            color: #FFFFFF; }
+        #backstage .logo > .logo-R > ul li:nth-child(1) span {
+          color: #ffff00; }
+        #backstage .logo > .logo-R > ul li:nth-child(1) img {
+          margin-left: 20px; }
+        #backstage .logo > .logo-R > ul li:nth-child(9) img {
+          margin-left: 10px; }
+        #backstage .logo > .logo-R > ul li:hover {
+          background: #335B64; }
+  #backstage .nav {
+    width: 100%;
+    height: 40px;
+    background: #575757; }
+    #backstage .nav > ul {
+      height: 40px; }
+      #backstage .nav > ul li {
+        float: left;
+        padding: 0 13px;
+        background: url(/images/logo-4.jpg) no-repeat right center;
+        height: 40px;
+        text-align: center;
+        line-height: 40px; }
+        #backstage .nav > ul li a {
+          display: block;
+          height: 40px;
+          color: #ffffff; }
+          #backstage .nav > ul li a img {
+            margin-top: 10px;
+            float: left; }
+          #backstage .nav > ul li a span {
+            float: left;
+            padding: 0 5px; }
+          #backstage .nav > ul li a i {
+            display: inline-block;
+            width: 30px;
+            height: 15px;
+            background: #ff3f3f;
+            color: #ffffff;
+            line-height: 15px;
+            border-radius: 5px; }
+      #backstage .nav > ul li:hover {
+        background: #335B64; }
+  #backstage .banner {
+    width: 100%;
+    height: 100%;
+    background: #ececec;
+    overflow: auto; }
+    #backstage .banner > .b1 {
+      width: 180px;
+      height: 635px;
+      background: #575757;
+      float: left; }
+      #backstage .banner > .b1 > ul {
+        text-align: center;
+        overflow: auto;
+        height: 635px; }
+        #backstage .banner > .b1 > ul > .b1_li-1 {
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px;
+          background: #303030; }
+          #backstage .banner > .b1 > ul > .b1_li-1 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-1 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-2 {
+          width: 163px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px;
+          background: url(/images/menu_1.png) 23px 0 no-repeat; }
+          #backstage .banner > .b1 > ul > .b1_li-2 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-2 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+          #backstage .banner > .b1 > ul > .b1_li-2 > ol {
+            height: auto;
+            display: none; }
+            #backstage .banner > .b1 > ul > .b1_li-2 > ol li {
+              height: 30px;
+              line-height: 30px; }
+              #backstage .banner > .b1 > ul > .b1_li-2 > ol li a {
+                color: #F3F3F3; }
+        #backstage .banner > .b1 > ul > .b1_li-3 {
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px;
+          background: url(/images/menu_2.png) 23px 0 no-repeat; }
+          #backstage .banner > .b1 > ul > .b1_li-3 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-3 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-4 {
+          background: url(/images/menu_3.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-4 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-4 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-5 {
+          background: url(/images/menu_4.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-5 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-5 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-6 {
+          background: url(/images/menu_5.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-6 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-6 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-7 {
+          background: url(/images/menu_6.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-7 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-7 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-8 {
+          background: url(/images/menu_7.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-8 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-8 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-9 {
+          background: url(/images/menu_8.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-9 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-9 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-10 {
+          background: url(/images/menu_9.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-10 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-10 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-11 {
+          background: url(/images/menu_10.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-11 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-11 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-12 {
+          background: url(/images/menu_11.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-12 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-12 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-13 {
+          background: url(/images/menu_12.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-13 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-13 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-14 {
+          background: url(/images/menu_13.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-14 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-14 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-15 {
+          background: url(/images/menu_14.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-15 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-15 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-16 {
+          background: url(/images/menu_15.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-16 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-16 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+        #backstage .banner > .b1 > ul > .b1_li-17 {
+          background: url(/images/menu_15.png) 23px 0 no-repeat;
+          width: 163px;
+          height: 40px;
+          border-bottom: #7f7f7f 1px solid;
+          line-height: 36px;
+          font-size: 15px; }
+          #backstage .banner > .b1 > ul > .b1_li-17 a {
+            color: #ffffff;
+            display: block;
+            width: 100%;
+            height: 100%; }
+          #backstage .banner > .b1 > ul > .b1_li-17 a:hover {
+            background: #7F7F7F;
+            opacity: 0.5; }
+    #backstage .banner .b2 {
+      width: 10px;
+      height: 635px;
+      background: #303030;
+      float: left; }
+      #backstage .banner .b2 a {
+        display: block;
+        width: 10px;
+        height: 30px;
+        background: #212121;
+        border-top: 1px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC;
+        margin-top: 300px; }
+        #backstage .banner .b2 a span {
+          display: block;
+          border-right: 6px solid #ffffff;
+          border-top: 3px solid transparent;
+          border-bottom: 3px solid transparent;
+          margin: 15px 5px 0 0; }
+    #backstage .banner .b3 {
+      width: 1233px;
+      height: auto;
+      background: #f0f0f0;
+      float: left; }
+      #backstage .banner .b3 > h2 {
+        width: 1200px;
+        height: 30px;
+        border-bottom: 1px solid #CCCCCC;
+        padding-top: 10px;
+        margin-left: 10px;
+        margin-top: 10px; }
+        #backstage .banner .b3 > h2 span {
+          display: inline-block;
+          width: 150px;
+          height: 26px;
+          float: left; }
+          #backstage .banner .b3 > h2 span a {
+            display: inline-block;
+            height: 26px; }
+          #backstage .banner .b3 > h2 span a:hover {
+            text-decoration: underline;
+            color: #f5ae1d; }
+        #backstage .banner .b3 > h2 i {
+          display: inline-block;
+          height: 26px;
+          width: 110px;
+          float: left; }
+          #backstage .banner .b3 > h2 i a {
+            display: inline-block;
+            height: 26px; }
+        #backstage .banner .b3 > h2 b {
+          display: inline-block;
+          width: 103px;
+          height: 26px;
+          background: #c43926;
+          float: right;
+          line-height: 26px;
+          text-align: center;
+          border-radius: 5px; }
+          #backstage .banner .b3 > h2 b a {
+            color: #FFFFFF;
+            font-size: 13px; }
+        #backstage .banner .b3 > h2 em {
+          display: inline-block;
+          float: left;
+          height: 26px;
+          margin-right: 20px; }
+      #backstage .banner .b3 .b3-1 {
+        width: 1200px;
+        height: 30px;
+        background: #f3f3f3;
+        border: 1px solid #CCCCCC;
+        padding-top: 10px;
+        margin: 10px 0 10px 10px; }
+        #backstage .banner .b3 .b3-1 img {
+          float: left; }
+        #backstage .banner .b3 .b3-1 select {
+          float: left;
+          margin: 0 5px; }
+        #backstage .banner .b3 .b3-1 select:nth-of-type(1) {
+          width: 166px;
+          height: 21px; }
+        #backstage .banner .b3 .b3-1 select:nth-of-type(2) {
+          width: 100px;
+          height: 21px; }
+        #backstage .banner .b3 .b3-1 select:nth-of-type(3) {
+          width: 76px;
+          height: 21px; }
+        #backstage .banner .b3 .b3-1 select:nth-of-type(4) {
+          width: 56px;
+          height: 21px; }
+        #backstage .banner .b3 .b3-1 span {
+          float: left;
+          color: #666666; }
+        #backstage .banner .b3 .b3-1 .txt {
+          float: left;
+          width: 100px; }
+        #backstage .banner .b3 .b3-1 .serach {
+          float: left;
+          background: #ff3f3f;
+          border: none;
+          color: #ffffff;
+          width: 63px;
+          height: 21px;
+          text-align: center;
+          line-height: 21px;
+          border-radius: 5px;
+          margin-left: 5px;
+          cursor: pointer; }
+      #backstage .banner .b3 > .b3-2 {
+        width: 1200px;
+        margin-left: 10px;
+        background: #FFFFFF; }
+        #backstage .banner .b3 > .b3-2 > table {
+          border: 1px solid #CCCCCC;
+          border-collapse: collapse; }
+          #backstage .banner .b3 > .b3-2 > table tr td {
+            border-bottom: 1px solid #CCCCCC;
+            border-right: 1px solid #CCCCCC; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(1) {
+            width: 90px;
+            height: 44px; }
+            #backstage .banner .b3 > .b3-2 > table tr td:nth-child(1) .tat {
+              float: left;
+              margin-left: 20px;
+              margin-right: 5px; }
+            #backstage .banner .b3 > .b3-2 > table tr td:nth-child(1) a {
+              float: left; }
+            #backstage .banner .b3 > .b3-2 > table tr td:nth-child(1) img {
+              float: left;
+              margin-top: 5px; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(2) {
+            width: 287px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(3) {
+            width: 120px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(4) {
+            width: 96px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(5) {
+            width: 50px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(6) {
+            width: 50px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(7) {
+            width: 50px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(8) {
+            width: 50px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(9) {
+            width: 77px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(10) {
+            width: 50px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(11) {
+            width: 77px;
+            height: 44px;
+            text-align: center; }
+          #backstage .banner .b3 > .b3-2 > table tr td:nth-child(12) {
+            width: 287px;
+            height: 44px;
+            text-align: center; }
+            #backstage .banner .b3 > .b3-2 > table tr td:nth-child(12) a {
+              padding: 0 2px;
+              display: inline;
+              height: 21px; }
+        #backstage .banner .b3 > .b3-2 > .b3-3 {
+          float: right;
+          height: 20px;
+          margin-right: 24px;
+          margin-top: 10px; }
+          #backstage .banner .b3 > .b3-2 > .b3-3 span {
+            display: inline-block; }
+          #backstage .banner .b3 > .b3-2 > .b3-3 .num {
+            width: 26px;
+            height: 21px;
+            border: 1px solid #CCCCCC;
+            text-align: center;
+            line-height: 26px;
+            border: none;
+            margin-right: 10px; }
+      #backstage .banner .b3 > .b3-4 {
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 5px; }
+        #backstage .banner .b3 > .b3-4 .sub {
+          width: 60px;
+          height: 26px;
+          background: #ff3f3f;
+          text-align: center;
+          line-height: 26px;
+          color: #ffffff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          float: left; }
+        #backstage .banner .b3 > .b3-4 select {
+          float: left;
+          margin-right: 5px;
+          height: 26px; }
+      #backstage .banner .b3 > .b3-5 {
+        width: 1200px;
+        height: 40px;
+        border: 1px solid #CCCCCC;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 10px;
+        background: #f3f3f3;
+        color: #666666; }

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em, i, b {
+  font-style: normal; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+#sc_box {
+  background: url(/images/ecshop-bg.png) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: 100% 100%; }
+  #sc_box .login {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px; }
+    #sc_box .login img {
+      margin-left: 50px; }
+  #sc_box .banner {
+    width: 100%;
+    height: 72px;
+    margin-top: 10px; }
+    #sc_box .banner img {
+      width: 250px;
+      height: 72px;
+      margin: 0 auto;
+      display: block; }
+  #sc_box form {
+    width: 446px;
+    height: 355px;
+    background: #eae9ea;
+    margin: auto;
+    margin-top: 46px;
+    overflow: hidden; }
+    #sc_box form .fo {
+      width: 305px;
+      height: 260px;
+      margin: 48px auto; }
+      #sc_box form .fo > .fo-1 {
+        width: 305px;
+        height: 50px;
+        background: #ffffff;
+        margin-bottom: 5px; }
+        #sc_box form .fo > .fo-1 span {
+          display: inline-block;
+          width: 23px;
+          height: 23px;
+          float: left;
+          margin: 10px 10px 0 10px; }
+        #sc_box form .fo > .fo-1 .username {
+          float: left;
+          height: 48px;
+          border: none; }
+      #sc_box form .fo > .fo-2 {
+        width: 305px;
+        height: 50px;
+        background: #ffffff;
+        margin-bottom: 5px; }
+        #sc_box form .fo > .fo-2 span {
+          display: inline-block;
+          width: 23px;
+          height: 23px;
+          float: left;
+          margin: 10px 10px 0 10px; }
+        #sc_box form .fo > .fo-2 .psw {
+          float: left;
+          height: 48px;
+          border: none; }
+      #sc_box form .fo > .fo-3 {
+        width: 305px;
+        height: 50px;
+        background: #ffffff; }
+        #sc_box form .fo > .fo-3 span {
+          display: inline-block;
+          width: 23px;
+          height: 23px;
+          float: left;
+          margin: 10px 10px 0 10px; }
+        #sc_box form .fo > .fo-3 .code {
+          float: left;
+          height: 48px;
+          border: none;
+          width: 152px; }
+        #sc_box form .fo > .fo-3 a {
+          margin: 5px 0 0 5px;
+          float: left; }
+      #sc_box form .fo > .fo-4 {
+        width: 305px;
+        height: 50px;
+        margin-bottom: 5px;
+        margin-top: 20px; }
+        #sc_box form .fo > .fo-4 .btn {
+          color: #FFFFFF;
+          border: none;
+          outline: none;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          background: #fc7878;
+          font-size: 18px;
+          border-radius: 5px; }
+      #sc_box form .fo > .fo-5 {
+        width: 305px;
+        height: 17px; }
+        #sc_box form .fo > .fo-5 .ch {
+          padding-right: 5px;
+          float: left;
+          margin-right: 10px; }
+        #sc_box form .fo > .fo-5 span {
+          float: left;
+          margin-right: 25px; }
+        #sc_box form .fo > .fo-5 em {
+          float: left;
+          margin-right: 49px; }
+          #sc_box form .fo > .fo-5 em a {
+            color: #41a5e1; }
+        #sc_box form .fo > .fo-5 i {
+          float: left; }
+          #sc_box form .fo > .fo-5 i a {
+            color: #41a5e1; }

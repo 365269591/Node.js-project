@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta charset="utf-8"/>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+    <script src="/javascripts/jquery.min.js"></script>
+    
+  </head>
+  <body>
+		<div id="sc_box">
+			<div class="login">
+				<img src="/images/shopex.png"/>
+			</div>
+			<div class="banner">
+				<img src="/images/ecshop-logo.png"/>
+			</div>
+			<form>
+				<div class="fo">
+					<div class="fo-1">
+						<span><img src="/images/logo-1.jpg"/></span><input type="text" placeholder="用户名" class="username"/>
+					</div>
+					<div class="fo-2">
+						<span><img src="/images/logo-2.jpg"/></span><input type="password" placeholder="密码" class="psw"/>
+					</div>
+					<div class="fo-3">
+						<span><img src="/images/logo-3.jpg"/></span><input type="text" placeholder="验证码" class="code"/><a href="javascript:;"><img src="/images/index.png" title="换一张"/></a>
+					</div>
+					<div class="fo-4">
+						<button class="btn" onclick="login()">登录</button>
+					</div>
+					<div class="fo-5">
+						<input type="checkbox" class="ch"/><span>保存登录信息</span> <em><a href="javascript:;">忘记密码?</a></em><i><a href="javascript:;">去店铺首页&gt;&gt;</a></i>
+					</div>
+				</div>
+			</form>
+		</div>
+  </body>
+  <script type="text/javascript">
+  	  function login(){
+  		$.ajax({
+  				type:"post",
+  				url:"/api/loginajax",
+  				async:true,
+  				data : {
+  					username : $(".username").val(),
+  					psw : $(".psw").val(),
+  				},
+  				success : function(res){
+  					console.log(res);
+  					if(res.code == 1){
+  						alert(res.message);
+						location.href = "/backstage?r=" + new Date().getTime();
+  					}else{
+  						alert(res.message);
+  				}
+  			}
+  		})
+  	}
+  </script>
+</html>
